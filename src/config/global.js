@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Dispositivos de control e informática forense',
+    descripcionCurso:
+      'En este componente formativo, se abordarán los diferentes dispositivos de control utilizados para evitar ataques informáticos y la aplicación de la informática forense.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -22,31 +23,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Dispositivos de control y monitoreo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
+        subMenu: [],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Informática forense',
         desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis de evidencia digital',
         desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Certificaciones profesionales en ciberseguridad',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -88,34 +91,79 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado - denominado "de la protección de la información y de los datos" y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones. Enero 5 de 2009.',
+      link:
+        'https://www.sic.gov.co/recursos_user/documentos/normatividad/Ley_1273_2009.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<i>Antispam</i>',
+      significado:
+        'Sistema que se instala en los sistemas de correo electrónico para evitar que correos no certificados o de dudosa procedencia coloquen en riesgo la información de la organización.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Certificación',
+      significado:
+        'Proceso que realiza un profesional para validar el conocimiento de acuerdo con un examen avalado por organismos de certificación.',
+    },
+    {
+      termino: '<i>Firewall</i>',
+      significado:
+        'Control de seguridad, que puede ser <i>hardware</i> o <i>software</i>, para evitar instrucciones a personas no deseadas.',
+    },
+    {
+      termino: 'IPS',
+      significado:
+        'Sistema de protección de usuario, el cual permite poner reglas de protección para evitar que los usuarios no comentan plagios o comportamientos indebidos en la infraestructura de la empresa.',
+    },
+    {
+      termino: 'Ley 1273 de 2009',
+      significado:
+        'Ley de delitos informáticos que establece sanciones en el ámbito de la seguridad de la información.',
+    },
+    {
+      termino: 'Parchado virtual',
+      significado:
+        'Es la manera como se actualizan los dispositivos de seguridad.  Estas actualizaciones están conectadas con los repositorios de los fabricantes y, de esta forma, los dispositivos se encuentran constantemente actualizados.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+      texto:
+        'Informática forense	Ley 1273 de 2009. Por medio de la cual se modifica el Código Penal, se crea un nuevo bien jurídico tutelado - denominado "de la protección de la información y de los datos" y se preservan integralmente los sistemas que utilicen las tecnologías de la información y las comunicaciones, entre otras disposiciones. Enero 5 de 2009.',
+      tipo: 'Ley',
+      descarga: '/downloads/Ley_1273_2009.pdf',
+    },
+    {
+      texto:
+        'Informática forense	UNIR | La Universidad en Internet. (2018). La práctica de la Informática Forense | UNIR OPENCLASS [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=VKVu3_SLqwM',
+    },
+    {
+      texto:
+        'Análisis de evidencia digital	Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (s. f.). CSIRT Gobierno. Gov.co.',
+      tipo: 'Sitio web',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://gobiernodigital.mintic.gov.co/seguridadyprivacidad/portal/Estrategias/CSIRT-Gobierno/',
+    },
+    {
+      texto:
+        'Certificaciones profesionales en ciberseguridad	Harán, J. (2020). Certificaciones en seguridad informática más populares. Welivesecurity.',
+      tipo: 'Artículo',
+      link:
+        'https://www.welivesecurity.com/la-es/2020/11/19/certificaciones-seguridad-informatica-mas-populares/',
+    },
+    {
+      texto:
+        'Certificaciones profesionales en ciberseguridad	Jiménez, M. (2016). La certificación en ciberseguridad es clave para competir. Prisacom.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_proquest_newspapers_1827856119',
     },
   ],
   creditos: {
@@ -131,7 +179,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -139,48 +187,53 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Nombre 1', 'Nombre 2'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
-        cargo: 'Diseño web',
+        cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
