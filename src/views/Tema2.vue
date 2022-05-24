@@ -124,8 +124,15 @@ export default {
 <style lang="sass">
 .tema2
 
-  //.tarjeta-amplia
-  //    width: 400px !important
+
+  .tarjeta-amplia
+    @media (min-width: 992px)
+      width: 450px !important
+
+
+
+
+
 
 
   .img-infografica.color-acento-botones .img-infografica__item__numero
@@ -156,8 +163,10 @@ export default {
   .fondo2
     position: relative
     padding-bottom: 1rem
-    p, img
+    z-index: 0
+    p, img, .tarjeta--container
       position: relative
+      z-index: 1
 
     &::before
       content: ""
