@@ -39,28 +39,28 @@
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .row.py-5.justify-content-center(titulo="Definición de roles y responsabilidades" :icono="require('@/assets/curso/tema3/img02.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 Definición de roles y responsabilidades
           p.mb-4.mb-lg-0 Se centra en la organización y definición de las personas responsables de realizar el proceso. Esto es importante en la medida en que cada proceso debe tener un responsable para unificar criterios y realizar seguimiento a cada proceso.
         .col-8.col-lg-3
           img(src="@/assets/curso/tema3/img07.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="Gestionar los eventos presentados" :icono="require('@/assets/curso/tema3/img03.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 Gestionar los eventos presentados
           p.mb-4.mb-lg-0 Este componente realiza el proceso de clasificación y detección de los diferentes eventos o incidentes presentados. Se utiliza una escala de valoración, que puede ir de bajo, medio, hasta alto. De acuerdo con esta valoración, se procede a crear las respuestas a entregar.
         .col-8.col-lg-3
           img(src="@/assets/curso/tema3/img08.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="Minimizar los impactos de los incidentes" :icono="require('@/assets/curso/tema3/img04.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 Minimizar los impactos de los incidentes
           p.mb-4.mb-lg-0 Aquí se debe tener en cuenta una gran realidad y es que muchos incidentes no se pueden eliminar del todo y esto hace parte del panorama de riesgo al cual está expuesto el negocio. Por tanto,  lo que se puede hacer es minimizar el impacto que este pueda generar, y en esa medida crear un proceso de respuesta que vaya acorde con el impacto del mismo.
         .col-8.col-lg-3
           img(src="@/assets/curso/tema3/img09.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="Definición de daños y costos" :icono="require('@/assets/curso/tema3/img05.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 Definición de daños y costos
           p.mb-4 En este punto, es importante tener en cuenta que el daño y el costo están estrechamente relacionados. De acuerdo con el nivel de impacto que tenga el incidente, se debe calcular cuál es el costo que esto podría generarle a la organización, aunque esto se puede definir en el plan de recuperación de desastres.
           p.mb-4.mb-lg-0 Hay que establecer cuál será el mecanismo que se debe utilizar para realizar un estudio de costos de acuerdo con información real y no con información desactualizada; es decir, no solo importa el costo monetario del componente, sino también el tiempo que se tomará volver a recuperar el sistema o ponerlo en marcha. Este tiempo se mide en costo, ya que en ocasiones cuesta trabajo adicional, contratación de mano de obra o la adquisición de nuevos componentes para reemplazar lo que sufrió daño.          
@@ -68,7 +68,7 @@
           img(src="@/assets/curso/tema3/img10.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="Procedimientos para la entrega de reporte de incidentes" :icono="require('@/assets/curso/tema3/img06.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 Procedimientos para la entrega de reporte de incidentes
           p.mb-4 En este componente, se debe realizar un paso a paso, es decir, una especie de manual en el cual se especifique cómo se debe realizar el reporte.  En este proceso, se definen los formatos, información solicitada, tales como nombre de quien presenta el reporte, la información del incidente, fecha de reporte del incidente, nivel de gravedad del incidente, para escalar el proceso de acuerdo con la urgencia, y el tratamiento que se le debe realizar al mismo. 
           p.mb-4.mb-lg-0 En muchas ocasiones, esta información permite realizar un tratamiento al incidente de una manera oportuna y disminuir su impacto, o resolverlo con anticipación.          
@@ -131,6 +131,14 @@ export default {
 </script>
 
 <style lang="sass">
+.linea-tiempo-d.color-primario .linea-tiempo-d__item .linea-tiempo-d__item__number
+  span
+    font-size: 24px !important
+
+.linea-tiempo-d__item .linea-tiempo-d__item__content__title
+  span
+    font-size: 20px !important
+
 .tema3
   .fondo1
     position: relative

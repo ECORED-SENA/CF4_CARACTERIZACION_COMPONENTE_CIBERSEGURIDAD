@@ -26,15 +26,15 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img02.svg')})`}"
       )
-      .bloque-texto-g__texto.p-4          
-          p.mb-0 En la actualidad, los IPS utilizan algoritmos de inteligencia artificial para poder predecir una situación de riesgo, o, de acuerdo con unos patrones detectados, bloquear el acceso a ciertos dispositivos o segmentos de la red de datos donde se encuentran los dispositivos críticos o con la información que debe estar protegida.
+      .bloque-texto-g__texto.p-4.py-5          
+          p.mb-0 <br>En la actualidad, los IPS utilizan algoritmos de inteligencia artificial para poder predecir una situación de riesgo, o, de acuerdo con unos patrones detectados, bloquear el acceso a ciertos dispositivos o segmentos de la red de datos donde se encuentran los dispositivos críticos o con la información que debe estar protegida.<br><br>
 
     p.mb-4(data-aos="fade-right") Estos sistemas tienen la capacidad de detectar y guardar en una base de datos la información de cierto usuario y su comportamiento, lo que le permite en próximas ocasiones verificar si se trata del mismo usuario y automáticamente detectarlo y/o bloquearlo. Lo anterior se conoce como <i>Machine Learning</i>, que permite a una máquina utilizar algoritmos de aprendizaje; almacenan información y luego la utilizan para ejecutar funciones específicas.
     p.mb-5(data-aos="fade-left") Los IPS se clasifican de la siguiente manera.
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
       .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img03.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 IPS basado en firmas
           p.mb-4 Cuenta con una base de datos de firmas ya verificadas y autenticadas para controlar el acceso de los usuarios y permisos a programas o características de acceso. Estas firmas son adicionadas al dispositivo, el cual empieza a ejercer sus funciones. 
           p.mb-4.mb-lg-0  Adicional a esto, tiene un algoritmo de coincidencia, el cual permite verificar los aspectos que tienen un patrón de equivalencia, notificar y realizar las acciones programadas.          
@@ -42,14 +42,14 @@
           img(src="@/assets/curso/tema1/img07.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img04.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 IPS basado en anomalías
           p.mb-4.mb-lg-0 Este tipo de IPS realiza un escaneo de perfiles, verifica el comportamiento de los usuarios en el sistema y realiza una verificación sobre las acciones que estos realizan en el sistema; por ejemplo, si un usuario se autentica a una hora específica siempre, o en un rango de hora determinada, y luego cambia esa rutina, el sistema lo detectará como algo sospechoso y realizará las respectivas notificaciones y acciones que se le tengan programadas.
         .col-8.col-lg-3
           img(src="@/assets/curso/tema1/img08.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img05.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 IPS basado en políticas
           p.mb-4 Este tipo de IPS requiere, inicialmente, que se le suministren las políticas de una manera específica, para luego entrar en función. 
           p.mb-4.mb-lg-0 Este se encarga de velar por el cumplimiento de rechazar o aceptar y, al mismo tiempo, realizar validaciones sobre acciones realizadas por los usuarios. Tiene un parecido a los <i>firewall</i>, puesto que, por ejemplo, si detecta que un usuario está tratando de enviar un paquete o alguna información fuera de la pactada dentro de las políticas, procede a denegar su acceso y a realizar la notificación correspondiente.          
@@ -57,7 +57,7 @@
           img(src="@/assets/curso/tema1/img09.png")      
         .col-lg-1
       .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img06.svg')")
-        .col-12.col-lg-8
+        .col-12.col-lg-8.py-3
           h4 IPS basado en la detección por <i>Honey Pot</i>
           p.mb-4 Se basa en la configuración de un equipo señuelo o carnada, con pocas configuraciones de seguridad y vulnerabilidades, para verificar si un posible atacante intenta acceder o vulnerar, y de esta manera verificar la intención que este tiene con respecto al uso del sistema.
           p.mb-4.mb-lg-0 Este tipo de estrategias son muy utilizadas para medir el grado de intencionalidad que puede tener un posible atacante y también se puede examinar a los usuarios internos de la red y verificar que nadie esté teniendo de manera interna intenciones fuera de las que están estipuladas en los procedimientos de la organización.
@@ -68,55 +68,56 @@
     .fondo1.py-5
       p.mb-4.text-white(data-aos="fade-left") Ahora bien, adicionales a las herramientas anteriormente expuestas, existen otros procesos que permiten monitorear y controlar el manejo que se le da a la seguridad de la información en una organización.      
       .row.justify-content-center(data-aos="fade-right")
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(1)")
+        //.col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(1)")
+        .col-xl.col-3.contenedor-especial(v-on:click="click(1)")
           img.mb-3(src="@/assets/curso/tema1/img12.svg" ref="img1" v-show="seleccion!=1")      
           img.mb-3(src="@/assets/curso/tema1/img21.svg" ref="img1b" v-show="seleccion==1")      
-          h3.text-center.text-white <i>Antimalware</i>
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(2)")
+          h3.text-center.text-white.textoespecial     <i>Antimalware</i>
+        .col-xl.col-3.contenedor-especial(v-on:click="click(2)")
           img.mb-3(src="@/assets/curso/tema1/img13.svg" ref="img2" v-show="seleccion!=2")      
           img.mb-3(src="@/assets/curso/tema1/img22.svg" ref="img2b" v-show="seleccion==2")      
-          h3.text-center.text-white <i>Antispam</i>
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(3)")
+          h3.text-center.text-white.textoespecial     <i>Antispam</i>
+        .col-xl.col-3.contenedor-especial(v-on:click="click(3)")
           img.mb-3(src="@/assets/curso/tema1/img14.svg" ref="img3" v-show="seleccion!=3")      
           img.mb-3(src="@/assets/curso/tema1/img23.svg" ref="img3b" v-show="seleccion==3")      
-          h3.text-center.text-white <i>Sandboxing</i>
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(4)")
+          h3.text-center.text-white.textoespecial     <i>Sandboxing</i>
+        .col-xl.col-3.contenedor-especial(v-on:click="click(4)")
           img.mb-3(src="@/assets/curso/tema1/img15.svg" ref="img4" v-show="seleccion!=4")      
           img.mb-3(src="@/assets/curso/tema1/img24.svg" ref="img4b" v-show="seleccion==4")      
-          h3.text-center.text-white <i>Firewall</i> de base de datos
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(5)")
+          h3.text-center.text-white.textoespecial     <i>Firewall</i> de base de datos
+        .col-xl.col-3.contenedor-especial(v-on:click="click(5)")
           img.mb-3(src="@/assets/curso/tema1/img16.svg" ref="img5" v-show="seleccion!=5")      
           img.mb-3(src="@/assets/curso/tema1/img25.svg" ref="img5b" v-show="seleccion==5")      
-          h3.text-center.text-white DLP
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(6)")
+          h3.text-center.text-white.textoespecial     DLP
+        .col-xl.col-3.contenedor-especial(v-on:click="click(6)")
           img.mb-3(src="@/assets/curso/tema1/img17.svg" ref="img6" v-show="seleccion!=6")      
           img.mb-3(src="@/assets/curso/tema1/img26.svg" ref="img6b" v-show="seleccion==6")      
-          h3.text-center.text-white NAC
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(7)")
+          h3.text-center.text-white.textoespecial     NAC
+        .col-xl.col-3.contenedor-especial(v-on:click="click(7)")
           img.mb-3(src="@/assets/curso/tema1/img18.svg" ref="img7" v-show="seleccion!=7")      
           img.mb-3(src="@/assets/curso/tema1/img27.svg" ref="img7b" v-show="seleccion==7")      
-          h3.text-center.text-white Parchado virtual
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(8)")
+          h3.text-center.text-white.textoespecial     Parchado virtual
+        .col-xl.col-3.contenedor-especial(v-on:click="click(8)")
           img.mb-3(src="@/assets/curso/tema1/img19.svg" ref="img8" v-show="seleccion!=8")              
           img.mb-3(src="@/assets/curso/tema1/img28.svg" ref="img8b" v-show="seleccion==8")      
-          h3.text-center.text-white <i>File Integrity Monitoring</i>
+          h3.text-center.text-white.textoespecial     <i>File Integrity Monitoring</i>
 
       .row.justify-content-center
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial.p-0
+        .col-xl.col-3.contenedor-especial.p-0
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==1")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==2")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==3")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==4")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==5")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==6")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==7")              
-        .col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial
+        .col-xl.col-3.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==8")              
 
       .fondo2.div.p-0(v-if="seleccion!=0" v-bind:data-aos="seleccion!=0?'fade-in':''" )
@@ -174,6 +175,9 @@ export default {
 
 <style lang="sass">
 .tema1
+  .textoespecial
+    overflow-wrap: break-word;
+
   .contenedor-especial
     cursor: pointer
 

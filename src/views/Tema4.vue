@@ -29,10 +29,14 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-12.col-lg-7
-          img.mb-3(src="@/assets/curso/tema4/img05.png")      
-          img.mb-3(src="@/assets/curso/tema4/img06.png")      
-          img.mb-3(src="@/assets/curso/tema4/img07.png")      
-          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/img08.png")      
+          //img.mb-3(src="@/assets/curso/tema4/img05.png")      
+          //img.mb-3(src="@/assets/curso/tema4/img06.png")      
+          //img.mb-3(src="@/assets/curso/tema4/img07.png")      
+          //img.mb-4.mb-lg-0(src="@/assets/curso/tema4/img08.png")      
+          img.mb-3(src="@/assets/curso/tema4/img12.svg")      
+          img.mb-3(src="@/assets/curso/tema4/img13.svg")      
+          img.mb-3(src="@/assets/curso/tema4/img14.svg")      
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema4/img15.svg")      
         .col-8.col-lg-5
           img(src="@/assets/curso/tema4/img09.svg")      
 
@@ -45,19 +49,21 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
       .row.justify-content-center(titulo="Certificaciones de nivel inicial")
+        .col-1
         .col-2
           img(src="@/assets/curso/tema4/img10.svg")      
-        .col-10
+        .col-9
           p.mb-4 Estas certificaciones se pueden tomar por profesionales con poca experiencia en la temática, pero que quieren validar sus conocimientos teóricos y, a partir de allí, entrar más adelante en una certificación práctica, de tal forma que se les reconozcan los conocimientos adquiridos en el desarrollo de su labor durante años de experiencia.
-          p.mb-4 <i>Security+</i> de CompTIA: esta certificación es muy demandada por las personas que están comenzando en el mundo de la ciberseguridad y que desean validar su conocimiento y experiencia, que pueden estar desarrollando desde hace años, pero que no cuentan con el aval de la certificación para poder acceder a mejores oportunidades laborales y, por supuesto, mejor remuneración salarial.        
-          p.mb-4 CEH (<i>Certified Ethical Hacker</i>): es una certificación inicial sobre los temas relacionados con el <i>hacking</i> ético y las buenas prácticas que esto conlleva. En muchas organizaciones, esta certificación es indispensable para poder ingresar a ellas, por lo tanto, no solo es importante, sino también bastante demandada.
+          p.mb-4 <b><i>Security+</i> de CompTIA:</b> esta certificación es muy demandada por las personas que están comenzando en el mundo de la ciberseguridad y que desean validar su conocimiento y experiencia, que pueden estar desarrollando desde hace años, pero que no cuentan con el aval de la certificación para poder acceder a mejores oportunidades laborales y, por supuesto, mejor remuneración salarial.        
+          p.mb-4 <b>CEH (<i>Certified Ethical Hacker</i>):</b> es una certificación inicial sobre los temas relacionados con el <i>hacking</i> ético y las buenas prácticas que esto conlleva. En muchas organizaciones, esta certificación es indispensable para poder ingresar a ellas, por lo tanto, no solo es importante, sino también bastante demandada.
       .row.justify-content-center(titulo="Certificaciones orientadas a profesionales especializados")
+        .col-1
         .col-2
           img(src="@/assets/curso/tema4/img11.svg")      
-        .col-10
+        .col-9
           p.mb-4 Certificaciones orientadas a profesionales especializados
           p.mb-4 Para este tipo de certificaciones, se asume que el profesional que aspira tiene un conocimiento avanzado sobre la temática y, por esta razón, los exámenes y rigurosidad para la certificación son con un nivel de exigencia mucho mayor; dentro ellas, se destaca:
-          p.mb-4 CAP (<i>Certified Authorization Professional</i>): de entrada, está certificación pide mínimo 2 años demostrables de experiencia remunerada en el campo de la seguridad, es decir, demostrar que ha estado vinculado laboralmente trabajando en este campo por este periodo de tiempo. 
+          p.mb-4 <b>CAP (<i>Certified Authorization Professional</i>):</b> de entrada, está certificación pide mínimo 2 años demostrables de experiencia remunerada en el campo de la seguridad, es decir, demostrar que ha estado vinculado laboralmente trabajando en este campo por este periodo de tiempo. 
           p.mb-4 Esta certificación demuestra que el profesional tiene un conocimiento avanzado en teoría y práctica para el mantenimiento de sistemas de seguridad de la información y, adicionalmente, un manejo de gestión del riesgo en la seguridad de la información, ya que permite que el profesional desarrolle competencias en la implementación de controles orientados a la norma ISO 27001 y sus demás actualizaciones.
 
     p.mb-0(data-aos="fade-left") De acuerdo con lo mencionado anteriormente, se puede llegar a la conclusión de que las certificaciones están orientadas no solo al fortalecimiento de los conocimientos del profesional, sino que adicionalmente mejora sus condiciones de oportunidad laboral y mejoramiento salarial, aunque no se puede dejar de lado que las empresas, hoy día, por temas de calidad, deben contar con personal no solo profesional, sino certificado, para que estas puedan alcanzar, a su vez, certificaciones que les exige el mercado actual. Por lo tanto,  esto se convierte en un beneficio para ambas partes.
