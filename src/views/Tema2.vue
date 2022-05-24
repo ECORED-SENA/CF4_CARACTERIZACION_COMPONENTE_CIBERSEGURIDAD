@@ -82,7 +82,7 @@
 
       h4.mb-5.text-center Proceso Forense 
 
-      .row.justify-content-center.align-items-center(data-aos="fade-right")
+      .row.justify-content-center.align-items-center
         .col-12.col-lg-8
           ImagenInfografica.color-acento-botones.mb-5
             template(v-slot:imagen)
