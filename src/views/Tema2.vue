@@ -156,7 +156,7 @@ export default {
   .fondo2
     position: relative
     padding-bottom: 1rem
-    p
+    p, img
       position: relative
 
     &::before

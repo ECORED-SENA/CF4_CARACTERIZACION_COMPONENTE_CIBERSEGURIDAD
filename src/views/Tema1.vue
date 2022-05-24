@@ -69,55 +69,55 @@
       p.mb-4.text-white(data-aos="fade-left") Ahora bien, adicionales a las herramientas anteriormente expuestas, existen otros procesos que permiten monitorear y controlar el manejo que se le da a la seguridad de la información en una organización.      
       .row.justify-content-center(data-aos="fade-right")
         //.col-xl.col-lg-2.col-md-3.col-sm-6.col-6.contenedor-especial(v-on:click="click(1)")
-        .col-xl.col-3.contenedor-especial(v-on:click="click(1)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(1)")
           img.mb-3(src="@/assets/curso/tema1/img12.svg" ref="img1" v-show="seleccion!=1")      
           img.mb-3(src="@/assets/curso/tema1/img21.svg" ref="img1b" v-show="seleccion==1")      
           h3.text-center.text-white.textoespecial     <i>Antimalware</i>
-        .col-xl.col-3.contenedor-especial(v-on:click="click(2)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(2)")
           img.mb-3(src="@/assets/curso/tema1/img13.svg" ref="img2" v-show="seleccion!=2")      
           img.mb-3(src="@/assets/curso/tema1/img22.svg" ref="img2b" v-show="seleccion==2")      
           h3.text-center.text-white.textoespecial     <i>Antispam</i>
-        .col-xl.col-3.contenedor-especial(v-on:click="click(3)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(3)")
           img.mb-3(src="@/assets/curso/tema1/img14.svg" ref="img3" v-show="seleccion!=3")      
           img.mb-3(src="@/assets/curso/tema1/img23.svg" ref="img3b" v-show="seleccion==3")      
           h3.text-center.text-white.textoespecial     <i>Sandboxing</i>
-        .col-xl.col-3.contenedor-especial(v-on:click="click(4)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(4)")
           img.mb-3(src="@/assets/curso/tema1/img15.svg" ref="img4" v-show="seleccion!=4")      
           img.mb-3(src="@/assets/curso/tema1/img24.svg" ref="img4b" v-show="seleccion==4")      
           h3.text-center.text-white.textoespecial     <i>Firewall</i> de base de datos
-        .col-xl.col-3.contenedor-especial(v-on:click="click(5)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(5)")
           img.mb-3(src="@/assets/curso/tema1/img16.svg" ref="img5" v-show="seleccion!=5")      
           img.mb-3(src="@/assets/curso/tema1/img25.svg" ref="img5b" v-show="seleccion==5")      
           h3.text-center.text-white.textoespecial     DLP
-        .col-xl.col-3.contenedor-especial(v-on:click="click(6)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(6)")
           img.mb-3(src="@/assets/curso/tema1/img17.svg" ref="img6" v-show="seleccion!=6")      
           img.mb-3(src="@/assets/curso/tema1/img26.svg" ref="img6b" v-show="seleccion==6")      
           h3.text-center.text-white.textoespecial     NAC
-        .col-xl.col-3.contenedor-especial(v-on:click="click(7)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(7)")
           img.mb-3(src="@/assets/curso/tema1/img18.svg" ref="img7" v-show="seleccion!=7")      
           img.mb-3(src="@/assets/curso/tema1/img27.svg" ref="img7b" v-show="seleccion==7")      
           h3.text-center.text-white.textoespecial     Parchado virtual
-        .col-xl.col-3.contenedor-especial(v-on:click="click(8)")
+        .col-xl.col-4.contenedor-especial(v-on:click="click(8)")
           img.mb-3(src="@/assets/curso/tema1/img19.svg" ref="img8" v-show="seleccion!=8")              
           img.mb-3(src="@/assets/curso/tema1/img28.svg" ref="img8b" v-show="seleccion==8")      
           h3.text-center.text-white.textoespecial     <i>File Integrity Monitoring</i>
 
       .row.justify-content-center
-        .col-xl.col-3.contenedor-especial.p-0
+        .col-xl.col-4.contenedor-especial.p-0
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==1")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==2")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==3")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==4")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==5")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==6")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==7")              
-        .col-xl.col-3.contenedor-especial
+        .col-xl.col-4.contenedor-especial
           img(src="@/assets/curso/tema1/img29.svg" ref="img8" v-show="seleccion==8")              
 
       .fondo2.div.p-0(v-if="seleccion!=0" v-bind:data-aos="seleccion!=0?'fade-in':''" )
