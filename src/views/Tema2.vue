@@ -101,7 +101,7 @@
               p.mb-4 <b>Entrega de resultado de evidencias:</b> en este punto, se lleva a cabo la entrega de las diferentes evidencias recolectadas y procesadas y que se convierten en el soporte legal. También permiten realizar un veredicto y resolver la situación legal de lo ocurrido. Es importante tener en cuenta que esta evidencia debe pasar por un riguroso proceso de verificación antes de ser entregada e incluida en el caso, para que no genere inconsistencias o entorpezca el debido seguimiento del mismo.
             .tarjeta.color-acento-botones.p-3(x="98.8%" y="27.3%" numero="+")
               p.mb-4 <b>Dictamen y/o veredicto:</b> En esta parte, se encuentra ya el veredicto final, el cual es aplicado por un juez con las competencias para establecer culpabilidad o inocencia de los involucrados en el proceso, de acuerdo con la evidencia presentada y los sucesos.
-         
+          
 </template>
 
 <script>
@@ -124,15 +124,9 @@ export default {
 <style lang="sass">
 .tema2
 
-
   .tarjeta-amplia
     @media (min-width: 992px)
       width: 450px !important
-
-
-
-
-
 
 
   .img-infografica.color-acento-botones .img-infografica__item__numero
