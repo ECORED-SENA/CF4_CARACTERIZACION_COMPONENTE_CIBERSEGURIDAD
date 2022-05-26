@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img01.svg')})`}"
       )
       .bloque-texto-g__texto.p-4(style="padding-top: 5rem !important; padding-bottom: 5rem !important;")          
-          p.mb-0 Como bien se sabe, las normas y estándares se crean para mejorar los niveles de calidad de un producto o servicio; por eso, la certificación es un plus que recibe un profesional en su área de desempeño.          
+          p.mb-0 Como bien se sabe, las normas y estándares se crean para mejorar los niveles de calidad de un producto o servicio; por eso, la certificación es un <b>plus</b> que recibe un profesional en su área de desempeño.          
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-12.col-lg-6

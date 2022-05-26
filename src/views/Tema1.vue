@@ -17,8 +17,8 @@
     p.mb-5(data-aos="fade-right") Una de las principales tecnologías de protección y fundamental en la implementación para la ciberseguridad es el <i>firewall</i> o también llamado cortafuegos. El video que se presenta a continuación desarrolla en qué consiste su uso.
 
     figure.mb-5(data-aos="fade-right")
-      .video      
-        iframe(width="1280" height="720" src="https://www.youtube.com/embed/9orYAFPV1Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
+      .video            
+        iframe(iframe width="1280" height="720" src="https://www.youtube.com/embed/HcQtLHiepto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)  
 
     p.mb-5(data-aos="fade-left") De igual forma, los IPS, sistemas de protección de intrusos, se encuentran en dos presentaciones: <i>hardware</i> y <i>software</i>. Estos se encargan de realizar un escaneo en la red de información de una organización y son capaces de detectar alguna situación sospechosa y dar alertas sobre la situación que se esté presentando, mediante el envío de correo electrónico o, en algunos casos, mensajes de texto, dependiendo de su configuración. Es importante destacar que los IPS están en la capacidad de bloquear o controlar el tráfico de la red de acuerdo con situaciones detectadas. 
 
@@ -41,14 +41,14 @@
         .col-8.col-lg-3
           img(src="@/assets/curso/tema1/img07.png")      
         .col-lg-1
-      .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img04.svg')")
+      .row.py-5.justify-content-center(titulo="IPS basado en anomalías" :icono="require('@/assets/curso/tema1/img04.svg')")
         .col-12.col-lg-8.py-3
           h4 IPS basado en anomalías
           p.mb-4.mb-lg-0 Este tipo de IPS realiza un escaneo de perfiles, verifica el comportamiento de los usuarios en el sistema y realiza una verificación sobre las acciones que estos realizan en el sistema; por ejemplo, si un usuario se autentica a una hora específica siempre, o en un rango de hora determinada, y luego cambia esa rutina, el sistema lo detectará como algo sospechoso y realizará las respectivas notificaciones y acciones que se le tengan programadas.
         .col-8.col-lg-3
           img(src="@/assets/curso/tema1/img08.png")      
         .col-lg-1
-      .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img05.svg')")
+      .row.py-5.justify-content-center(titulo="IPS basado en políticas" :icono="require('@/assets/curso/tema1/img05.svg')")
         .col-12.col-lg-8.py-3
           h4 IPS basado en políticas
           p.mb-4 Este tipo de IPS requiere, inicialmente, que se le suministren las políticas de una manera específica, para luego entrar en función. 
@@ -56,7 +56,7 @@
         .col-8.col-lg-3
           img(src="@/assets/curso/tema1/img09.png")      
         .col-lg-1
-      .row.py-5.justify-content-center(titulo="IPS basado en firmas" :icono="require('@/assets/curso/tema1/img06.svg')")
+      .row.py-5.justify-content-center(titulo="IPS basado en la detección por <i>Honey Pot</i>" :icono="require('@/assets/curso/tema1/img06.svg')")
         .col-12.col-lg-8.py-3
           h4 IPS basado en la detección por <i>Honey Pot</i>
           p.mb-4 Se basa en la configuración de un equipo señuelo o carnada, con pocas configuraciones de seguridad y vulnerabilidades, para verificar si un posible atacante intenta acceder o vulnerar, y de esta manera verificar la intención que este tiene con respecto al uso del sistema.
