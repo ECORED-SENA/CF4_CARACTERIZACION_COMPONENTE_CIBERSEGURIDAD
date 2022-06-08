@@ -13,7 +13,7 @@
       .col-12.col-lg-10
           .cajon.color-primario.p-4
             p.mb-4 <b>Evidencia digital</b>
-            p.mb-0 Es todo elemento o parte utilizada en un sistema de tratamiento de información que provee acceso a un medio tecnológico o una parte en él,  tales como archivo, fichero, memoria <i>usb</i>, equipo de computo, llave de acceso, usuario, contraseña, etc. Una evidencia digital es todo aquello que se almacena o procesa mediante medios digitales o sistemas informáticos.
+            p.mb-0 Es todo elemento o parte utilizada en un sistema de tratamiento de información que provee acceso a un medio tecnológico o una parte en él,  tales como archivo, fichero, memoria <i>USB</i>, equipo de cómputo, llave de acceso, usuario, contraseña, etc. Una evidencia digital es todo aquello que se almacena o procesa mediante medios digitales o sistemas informáticos.
 
     p.mb-4(data-aos="fade-right") A continuación, se presentan algunas características específicas que toda evidencia digital contiene.
 

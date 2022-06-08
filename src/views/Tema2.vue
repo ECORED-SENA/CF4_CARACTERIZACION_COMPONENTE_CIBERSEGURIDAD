@@ -54,7 +54,7 @@
             
           div.px-0.px-lg-5
             h1.text-center(style="font-size:32px") Capítulo segundo
-            p.mb-4 De las atentados informáticos y otras infracciones.
+            p.mb-4 De los atentados informáticos y otras infracciones.
             p.mb-0 <b>Artículo 269I:</b> HURTO POR MEDIOS INFORMÁTICOS Y SEMEJANTES. El que, superando medidas de seguridad informáticas, realice la conducta señalada en el artículo 239, manipulando un sistema informático, una red de sistema electrónico, telemático u otro medio semejante, o suplantando a un usuario ante los sistemas de autenticación y de autorización establecidos, incurrirá en las penas señaladas en el artículo 240 de este Código.
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
