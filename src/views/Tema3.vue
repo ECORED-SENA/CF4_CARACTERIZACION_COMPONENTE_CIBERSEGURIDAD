@@ -131,13 +131,13 @@ export default {
 </script>
 
 <style lang="sass">
-.linea-tiempo-d.color-primario .linea-tiempo-d__item .linea-tiempo-d__item__number
-  span
-    font-size: 24px !important
+// .linea-tiempo-d.color-primario .linea-tiempo-d__item .linea-tiempo-d__item__number
+//   span
+//     font-size: 24px !important
 
-.linea-tiempo-d__item .linea-tiempo-d__item__content__title
-  span
-    font-size: 20px !important
+// .linea-tiempo-d__item .linea-tiempo-d__item__content__title
+//   span
+//     font-size: 20px !important
 
 .tema3
   .fondo1
